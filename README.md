@@ -1,10 +1,10 @@
 # Parsedown Numbered Headings
 
-This is an extension for [Parsedown](http://parsedown.org) that adds Numbered Headings. It will only support up to H8.
+This is an extension for [Parsedown](http://parsedown.org) that adds Numbered Headings. 
 
 ## Example
 
-It will transform this:
+This extension will transform this:
 
 ```Markdown
 # Lorem ipsum dolor sit amet
@@ -68,6 +68,7 @@ include_once 'ParsedownExtra.php';
 include_once 'ParsedownExtraNumberedHeadings.php';
 ```
 
+
 ## Usage
 
 Use as you would normal Parsedown
@@ -82,3 +83,5 @@ will echo
 ```HTML
 <h1>1. Heading</h1>
 ```
+
+This extension only supports up to H8.
